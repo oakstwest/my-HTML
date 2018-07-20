@@ -1,0 +1,108 @@
+a {
+    color: #F2F7F7;
+    font-size: 24 px;
+    font-family: sans-serif;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .clearfix::after { 
+    content: ""; 
+    clear: both; 
+    display: table;
+} 
+ 
+  li {
+    float: right;
+  }
+  ul { background-color: rgb(120, 120, 124);
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  
+  }
+  .active {
+    background-color: #2ab9b9;
+  }
+  
+
+.red1 { 
+    width: 100px; 
+    height: 100px; 
+    background-color: #2ab9b9;
+    padding: 10px;
+    margin: 25px;
+    float: left;
+}
+
+.green1 {
+    width: 100px; 
+    height: 100px; 
+    background-color: #2ab9b9;
+    padding: 10px;
+    margin: 25px;
+    float: left;
+}
+
+.yellow1 {
+    width: 100px; 
+    height: 100px; 
+    background-color: #2ab9b9;
+    padding: 10px;
+    margin: 25px;
+    float: left;
+}
+
+.blue1 {
+    width: 300px; 
+    height: 100px; 
+    background-color: rgb(201, 165, 66); 
+    padding: 10px;
+    margin: 25px;
+    position: relative;
+    left: 60px;
+    bottom: 60px;
+    vertical-align: baseline;
+}
+    
+.blue2 {
+  width: 300px; 
+  height: 100px; 
+  background-color: rgb(201, 165, 66); 
+  padding: 10px;
+  margin: 25px;
+  position: relative;
+  left: 60px;
+  bottom: 10px;
+  vertical-align: baseline;
+}
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  footer {
+    background-color: #2B2C2C;
+  }
+  #footText {
+    color: #f2f7f7;
+   }
+  
+  
+  .picBackdrop{
+    background-position: center;
+    background-size: cover;
+  }
+  h1 {
+  margin: 0;
+    padding: 120px 10px;
+    height: 60px;
+    text-align: center;
+    color:rgb(219, 216, 15);
+    background-color: #2B2C2C;
+    font-size: 72px;
+    font-family: sans-serif;
+  }
+  
